@@ -1,0 +1,26 @@
+
+import random
+
+numero = ""
+chuteUsu = ""
+
+def gerar():
+    numero = random.randint(0,100)
+    
+def receber():
+    chuteUsu = float(input("Adivinhe o número: "))
+    
+gerar()
+receber()
+
+for i in range(1,4):
+    input("Tente novamente")
+    
+if numero == chuteUsu:
+    print("Você acertou! ")
+else:
+    print("Você é burro. ")
+
+        
+
+    
